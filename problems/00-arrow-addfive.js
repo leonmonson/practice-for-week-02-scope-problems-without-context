@@ -16,7 +16,14 @@ let result3 = addFive(37); // returns 42
 ***********************************************************************/
 
 // Your code here
-
+function sumarray(array) {
+  let sum = 0;
+  for(let i = 0; 1 < array.length; i  += 1) {
+    let num = array[i];
+    sum + = num;
+  }
+  return sum;
+  
 /**************DO NOT MODIFY ANYTHING UNDER THIS LINE*****************/
 try {
   module.exports = addFive;
